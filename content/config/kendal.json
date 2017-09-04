@@ -1,0 +1,67 @@
+{
+  "generalKendal" :
+  {
+    "class" : "knight",
+    "female" : false,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "Morgan Kendal",
+      "biography" : "Following King Gryphonheart's murder, General Morgan Kendal temporarily assumed the throne until a new successor could be found. History shall remember him as the only ruler of Erathia who allowed the capital city of Steadwick to be captured.",
+      "specialty" :
+      {
+        "description" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+        "tooltip" : "+350 Gold each day",
+        "name" : "+350 Gold"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "keSmall",
+      "specialtyLarge" : "keBig.bmp",
+      "large" : "HPL129MK",
+      "small" : "HPS129MK"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "pikeman",
+        "max" : 25,
+        "min" : 15
+      },
+      {
+        "creature" : "archer",
+        "max" : 7,
+        "min" : 5
+      },
+      {
+        "creature" : "griffin",
+        "max" : 6,
+        "min" : 4
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "estates"
+      },
+	  {
+        "level" : "basic",
+        "skill" : "leadership"
+      }
+    ],
+    
+    "specialty":
+    [
+      {
+		"bonuses" : 
+		[ { "subtype" : "resource.gold", "type" : "GENERATE_RESOURCE", "val" : 350 } ] 
+      }
+    ]
+  }
+}

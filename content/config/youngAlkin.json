@@ -1,0 +1,82 @@
+{
+  "youngAlkin" :
+  {
+    "class" : "beastmaster",
+    "female" : false,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "Young Alkin",
+      "biography" : "King Tralossk never really liked Alkin, but gave him his own command in the hopes that he would one day get himself killed. That never happened, and Alkin has led a long and glorious career, much to the displeasure of the King.",
+      "specialty" :
+      {
+        "description" : "{Gorgons}\r\n\r\nIncreases the attack and defense skills of any Gorgons or Mighty Gorgons for each level attained after 5th level.",
+        "tooltip" : "Creature Bonus: Gorgons",
+        "name" : "Gorgons"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "yaSmall.bmp",
+      "specialtyLarge" : "yaBig.bmp",
+      "large" : "HPL116BX",
+      "small" : "HPS116BX"
+    },
+
+    "army" :
+    [
+	  {
+        "creature" : "gnoll",
+        "max" : 20,
+        "min" : 10
+      },
+      {
+        "creature" : "lizardman",
+        "max" : 7,
+        "min" : 4
+      },
+      {
+        "creature" : "serpentFly",
+        "max" : 4,
+        "min" : 2
+      }
+    ],
+	
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "armorer"
+      },
+	  {
+        "level" : "basic",
+        "skill" : "offence"
+      }
+    ],
+	
+		"specialty" : [
+			{
+				"bonuses" : [
+					{
+						"limiters" : [ { "parameters" : [ "gorgon", true ], "type" : "CREATURE_TYPE_LIMITER" } ],
+						"subtype" : 0,
+						"type" : "PRIMARY_SKILL"
+					},
+					{
+						"limiters" : [ { "parameters" : [ "gorgon", true ], "type" : "CREATURE_TYPE_LIMITER" } ],
+						"subtype" : 1,
+						"type" : "PRIMARY_SKILL"
+					},
+					{
+						"limiters" : [ { "parameters" : [ "gorgon", true ], "type" : "CREATURE_TYPE_LIMITER" } ],
+						"type" : "STACKS_SPEED",
+						"val" : 1
+					}
+				],
+				"growsWithLevel" : true
+			}
+		]
+	}
+}

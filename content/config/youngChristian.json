@@ -1,0 +1,71 @@
+{
+  "youngChristian" :
+  {
+    "class" : "knight",
+    "female" : false,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "Young Christian",
+      "biography" : "Christian was always more of a frontiersman than a Knight, having set foot in nearly every part of Enroth before finally settling into military service in Erathia. Though a wanderer and a bit of dreamer, his battefield tactics are feared throughout the world.",
+      "specialty" :
+      {
+        "description" : "{Ballista}\r\n\r\nIncreases the Attack and Defense skills of any Ballista by 5% for every 4 levels (rounded up).",
+        "tooltip" : "Ballista bonus",
+        "name" : "Ballista"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "ycSmall.bmp",
+      "specialtyLarge" : "ycBig.bmp",
+      "large" : "HPL002Sh",
+      "small" : "HPS002Sh"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "ballista",
+        "max" : 1,
+        "min" : 1
+      },
+      {
+        "creature" : "pikeman",
+        "max" : 20,
+        "min" : 10
+      },
+      {
+        "creature" : "griffin",
+        "max" : 6,
+        "min" : 4
+      }
+    ],
+	
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "leadership"
+      },
+	  {
+        "level" : "basic",
+        "skill" : "artillery"
+      }
+    ],
+    
+	"specialty" : [
+			{
+				"bonuses" : [
+					{
+						"limiters" : [ { "parameters" : [ "ballista", false ], "type" : "CREATURE_TYPE_LIMITER" } ],
+						"type" : "ENEMY_DEFENCE_REDUCTION",
+						"val" : 50
+					}
+				]
+			}
+		] 
+	}
+}

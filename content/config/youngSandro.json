@@ -1,0 +1,79 @@
+{
+  "youngSandro" :
+  {
+    "class" : "necromancer",
+    "female" : false,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "Young Sandro",
+      "biography" : "Sandro first studied Necromancy under the tutelage of the wizard, and later the lich, Ethric. Sandro has seen nearly all of Enroth and Erathia, and now serves Finneas Vilmar, leader of the Necromancers of Deyja.",
+      "specialty" :
+      {
+        "description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill percentage.",
+        "tooltip" : "Secondary Skill Bonus: Sorcery",
+        "name" : "Sorcery"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "ysSmall.bmp",
+      "specialtyLarge" : "ysBig.bmp",
+      "large" : "HPL135Wi",
+      "small" : "HPS135Wi"
+    },
+
+    "army" :
+    [
+	  {
+        "creature" : "skeleton",
+        "max" : 30,
+        "min" : 20
+      },
+      {
+        "creature" : "walkingDead",
+        "max" : 6,
+        "min" : 4
+      },
+      {
+        "creature" : "wight",
+        "max" : 6,
+        "min" : 4
+      }
+    ],
+	
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "necromancy"
+      },
+	  {
+        "level" : "basic",
+        "skill" : "sorcery"
+      }
+    ],
+	"spellbook" : ["slow"],
+    
+	"specialty" : [
+			{
+				"bonuses" : [
+					{
+						"subtype" : "skill.sorcery",
+						"type" : "SPECIAL_SECONDARY_SKILL",
+						"val" : 5
+					},
+					{
+						"subtype" : "skill.sorcery",
+						"type" : "SECONDARY_SKILL_PREMY",
+						"val" : 5,
+						"valueType" : "PERCENT_TO_BASE"
+					}
+				],
+				"growsWithLevel" : true
+			}
+		]
+	}
+}

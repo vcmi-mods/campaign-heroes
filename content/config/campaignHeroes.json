@@ -1,0 +1,51 @@
+{
+// "special" heroes for campaigns
+	"core:lordHaart":
+	{
+		"special" : false // Lord Haart in his living form. Disabled in H3 expansions
+	},
+	"core:adrienne":
+	{
+		"special" : false
+	},
+	"core:catherine":
+	{
+		"special" : false
+	},
+	"core:dracon":
+	{
+		"special" : false
+	},
+	"core:gelu":
+	{
+		"special" : false
+	},
+	"core:kilgor":
+	{
+		"special" : false
+	},
+	"core:undeadHaart": // undead version of Lord Haart
+	{
+		"special" : false
+	},
+	"core:mutare":
+	{
+		"special" : false
+	},
+	"core:roland":
+	{
+		"special" : false
+	},
+	"core:mutareDrake":
+	{
+		"special" : false
+	},
+	"core:boragus":
+	{
+		"special" : false
+	},
+	"core:xeron":
+	{
+		"special" : false
+	}
+}

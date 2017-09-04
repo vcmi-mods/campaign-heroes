@@ -1,0 +1,75 @@
+{
+  "ordwald" :
+  {
+    "class" : "druid",
+    "female" : false,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "Ordwald",
+      "biography" : "Ordwald was the most powerful Lord in Nighon. He was an old but powerful warlock, receiving his lands from his much greater father. He rejected the warriors art's and turned to magic. Most likely that would mean that his father was a powerful Dungeon Overlord of Nighon. He sought to obtain the Vial of Dragon Blood, and was the greatest enemy and challenger of Mutare.",
+      "specialty" :
+      {
+        "description" : "{Slayer}\r\n\r\nCasts Slayer with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+        "tooltip" : "Spell bonus: Slayer",
+        "name" : "Slayer"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "orSmall.bmp",
+      "specialtyLarge" : "orBig.bmp",
+      "large" : "HPL132Wl",
+      "small" : "HPS132Wl"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "centaur",
+        "max" : 25,
+        "min" : 15
+      },
+      {
+        "creature" : "dwarf",
+        "max" : 7,
+        "min" : 5
+      },
+      {
+        "creature" : "woodElf",
+        "max" : 6,
+        "min" : 4
+      }
+    ],
+	
+	"spellbook" : ["slayer"],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "scholar"
+      },
+	  {
+        "level" : "basic",
+        "skill" : "wisdom"
+      }
+    ],
+    
+    "specialty":
+    [
+      {
+		"bonuses" : 
+			[
+				{
+				"addInfo" : 1,
+				"subtype" : "spell.slayer",
+				"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			] 
+		}
+	]
+  }
+}

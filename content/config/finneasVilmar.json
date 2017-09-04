@@ -1,0 +1,72 @@
+{
+  "finneasVilmar" :
+  {
+    "class" : "necromancer",
+    "female" : false,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "Finneas Vilmar",
+      "biography" : "Though Finneas Vilmar's thirst for power makes him a virtually unstoppable Necromancer, the ability of political manipulation and battle tactics elude him. He has joined with Sandro so he can use his skills to move himself through the ranks.",
+      "specialty" :
+      {
+        "description" : "{Animate Dead}\r\n\r\nCasts Animate Dead spell with increased effect, based on hero level compared to the level of the target unit.",
+        "tooltip" : "Spell bonus: Animate Dead",
+        "name" : "Animate Dead"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "fvSmall.bmp",
+      "specialtyLarge" : "fvBig.bmp",
+      "large" : "HPL133Nc",
+      "small" : "HPS133Nc"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "skeleton",
+        "max" : 30,
+        "min" : 20
+      },
+      {
+        "creature" : "walkingDead",
+        "max" : 6,
+        "min" : 4
+      },
+      {
+        "creature" : "wight",
+        "max" : 6,
+        "min" : 4
+      }
+    ],
+	
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "necromancy"
+      },
+	  {
+        "level" : "basic",
+        "skill" : "mysticism"
+      }
+    ],
+	"spellbook" : ["animateDead"],
+    
+	"specialty" : [
+			{
+				"bonuses" : [
+					{
+						"addInfo" : 0,
+						"subtype" : "spell.animateDead",
+						"type" : "SPECIAL_PECULIAR_ENCHANT"
+					}
+				]
+			}
+		] 
+	}
+}

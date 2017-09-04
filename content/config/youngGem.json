@@ -1,0 +1,79 @@
+{
+  "youngGem" :
+  {
+    "class" : "druid",
+    "female" : true,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "Young Gem",
+      "biography" : "Gem was one of the greatest sorceresses that Enroth had ever seen, serving King Roland Ironfist during the Succession Wars. Shortly after Roland had secured the throne of Enroth, Gem left for Antagarich.",
+      "specialty" :
+      {
+        "description" : "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid skill.",
+        "tooltip" : "Secondary Skill Bonus: First Aid",
+        "name" : "First Aid"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "ygSmall.bmp",
+      "specialtyLarge" : "ygBig.bmp",
+      "large" : "HPL134Nc",
+      "small" : "HPS134Nc"
+    },
+
+    "army" :
+    [
+	  {
+        "creature" : "centaurCaptain",
+        "max" : 16,
+        "min" : 8
+      },
+      {
+        "creature" : "centaur",
+        "max" : 24,
+        "min" : 12
+      },
+      {
+        "creature" : "woodElf",
+        "max" : 8,
+        "min" : 4
+      }
+    ],
+	
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "wisdom"
+      },
+	  {
+        "level" : "basic",
+        "skill" : "firstAid"
+      }
+    ],
+	"spellbook" : ["lightningBolt"],
+    
+	"specialty" : [
+			{
+				"bonuses" : [
+					{
+						"subtype" : "skill.firstAid",
+						"type" : "SPECIAL_SECONDARY_SKILL",
+						"val" : 5
+					},
+					{
+						"subtype" : "skill.firstAid",
+						"type" : "SECONDARY_SKILL_PREMY",
+						"val" : 5,
+						"valueType" : "PERCENT_TO_BASE"
+					}
+				],
+				"growsWithLevel" : true
+			}
+		]
+	}
+}

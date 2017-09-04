@@ -1,0 +1,21 @@
+{
+	"name" : "Campaign Heroes",
+	"description" : "All 20 campaign heroes are now available in random maps",
+	"author" : "avatar",
+	"version" : "1.11",
+	"contact" : "",
+	"modType" : "Heroes",
+
+	"heroes" :
+	[
+		"config/campaignHeroes.json",
+		"config/finneasVilmar.json",
+		"config/kendal.json",
+		"config/ordwald.json",
+		"config/youngChristian.json",
+		"config/youngGem.json",
+		"config/youngSandro.json",
+		"config/youngYog.json",
+		"config/youngAlkin.json",		
+	]	
+}
