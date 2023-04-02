@@ -19,8 +19,8 @@
 
     "images" :
     {
-      "specialtySmall" : "orSmall.bmp",
-      "specialtyLarge" : "orBig.bmp",
+      "specialtySmall" : "orSmall",
+      "specialtyLarge" : "orBig",
       "large" : "HPL132Wl",
       "small" : "HPS132Wl"
     },
@@ -58,18 +58,14 @@
       }
     ],
     
-    "specialty":
-    [
-      {
-		"bonuses" : 
-			[
-				{
-				"addInfo" : 1,
-				"subtype" : "spell.slayer",
-				"type" : "SPECIAL_PECULIAR_ENCHANT"
+    "specialty" : {
+			"bonuses" : {
+				"slayer" : {
+					"addInfo" : 1,
+					"subtype" : "spell.slayer",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}
-			] 
+			}
 		}
-	]
-  }
+	}
 }

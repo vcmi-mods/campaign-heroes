@@ -7,7 +7,7 @@
 
     "texts" :
     {
-      "name" : "Morgan Kendal",
+      "name" : "Morgan",
       "biography" : "Following King Gryphonheart's murder, General Morgan Kendal temporarily assumed the throne until a new successor could be found. History shall remember him as the only ruler of Erathia who allowed the capital city of Steadwick to be captured.",
       "specialty" :
       {
@@ -20,7 +20,7 @@
     "images" :
     {
       "specialtySmall" : "keSmall",
-      "specialtyLarge" : "keBig.bmp",
+      "specialtyLarge" : "keBig",
       "large" : "HPL129MK",
       "small" : "HPS129MK"
     },
@@ -56,12 +56,14 @@
       }
     ],
     
-    "specialty":
-    [
-      {
-		"bonuses" : 
-		[ { "subtype" : "resource.gold", "type" : "GENERATE_RESOURCE", "val" : 350 } ] 
-      }
-    ]
-  }
+	"specialty" : {
+		"bonuses" : {
+			"gold" : {
+				"subtype" : "resource.gold",
+				"type" : "GENERATE_RESOURCE",
+				"val" : 350
+			}
+		 }
+	  }
+   }
 }

@@ -7,7 +7,7 @@
 
     "texts" :
     {
-      "name" : "Young Sandro",
+      "name" : "Sandro",
       "biography" : "Sandro first studied Necromancy under the tutelage of the wizard, and later the lich, Ethric. Sandro has seen nearly all of Enroth and Erathia, and now serves Finneas Vilmar, leader of the Necromancers of Deyja.",
       "specialty" :
       {
@@ -19,8 +19,8 @@
 
     "images" :
     {
-      "specialtySmall" : "ysSmall.bmp",
-      "specialtyLarge" : "ysBig.bmp",
+      "specialtySmall" : "ysSmall",
+      "specialtyLarge" : "ysBig",
       "large" : "HPL135Wi",
       "small" : "HPS135Wi"
     },
@@ -57,23 +57,16 @@
     ],
 	"spellbook" : ["slow"],
     
-	"specialty" : [
-			{
-				"bonuses" : [
-					{
-						"subtype" : "skill.sorcery",
-						"type" : "SPECIAL_SECONDARY_SKILL",
-						"val" : 5
-					},
-					{
-						"subtype" : "skill.sorcery",
-						"type" : "SECONDARY_SKILL_PREMY",
-						"val" : 5,
-						"valueType" : "PERCENT_TO_BASE"
-					}
-				],
-				"growsWithLevel" : true
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPELL_DAMAGE",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
 			}
-		]
+		}
 	}
 }

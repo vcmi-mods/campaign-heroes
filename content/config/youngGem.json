@@ -7,7 +7,7 @@
 
     "texts" :
     {
-      "name" : "Young Gem",
+      "name" : "Gem",
       "biography" : "Gem was one of the greatest sorceresses that Enroth had ever seen, serving King Roland Ironfist during the Succession Wars. Shortly after Roland had secured the throne of Enroth, Gem left for Antagarich.",
       "specialty" :
       {
@@ -19,8 +19,8 @@
 
     "images" :
     {
-      "specialtySmall" : "ygSmall.bmp",
-      "specialtyLarge" : "ygBig.bmp",
+      "specialtySmall" : "ygSmall",
+      "specialtyLarge" : "ygBig",
       "large" : "HPL134Nc",
       "small" : "HPS134Nc"
     },
@@ -57,23 +57,17 @@
     ],
 	"spellbook" : ["lightningBolt"],
     
-	"specialty" : [
-			{
-				"bonuses" : [
-					{
-						"subtype" : "skill.firstAid",
-						"type" : "SPECIAL_SECONDARY_SKILL",
-						"val" : 5
-					},
-					{
-						"subtype" : "skill.firstAid",
-						"type" : "SECONDARY_SKILL_PREMY",
-						"val" : 5,
-						"valueType" : "PERCENT_TO_BASE"
-					}
-				],
-				"growsWithLevel" : true
+	"specialty" : {
+			"bonuses" : {
+				"firstAid" : {
+					"subtype" : "core:spell.firstAid",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPECIFIC_SPELL_POWER",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
 			}
-		]
+		}
 	}
 }

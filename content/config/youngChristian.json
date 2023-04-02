@@ -7,7 +7,7 @@
 
     "texts" :
     {
-      "name" : "Young Christian",
+      "name" : "Christian",
       "biography" : "Christian was always more of a frontiersman than a Knight, having set foot in nearly every part of Enroth before finally settling into military service in Erathia. Though a wanderer and a bit of dreamer, his battefield tactics are feared throughout the world.",
       "specialty" :
       {
@@ -19,8 +19,8 @@
 
     "images" :
     {
-      "specialtySmall" : "ycSmall.bmp",
-      "specialtyLarge" : "ycBig.bmp",
+      "specialtySmall" : "ycSmall",
+      "specialtyLarge" : "ycBig",
       "large" : "HPL002Sh",
       "small" : "HPS002Sh"
     },
@@ -56,16 +56,8 @@
       }
     ],
     
-	"specialty" : [
-			{
-				"bonuses" : [
-					{
-						"limiters" : [ { "parameters" : [ "ballista", false ], "type" : "CREATURE_TYPE_LIMITER" } ],
-						"type" : "ENEMY_DEFENCE_REDUCTION",
-						"val" : 50
-					}
-				]
-			}
-		] 
+	"specialty" : {
+			"creature" : "ballista"
+		} 
 	}
 }

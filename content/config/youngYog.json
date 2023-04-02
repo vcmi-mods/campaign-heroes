@@ -7,7 +7,7 @@
 
     "texts" :
     {
-      "name" : "Young Yog",
+      "name" : "Yog",
       "biography" : "Yog studied many years with the Wizards of Bracada, but he would rather spend his time engaging in swordplay rather than studying magic.",
       "specialty" :
       {
@@ -19,8 +19,8 @@
 
     "images" :
     {
-      "specialtySmall" : "yySmall.bmp",
-      "specialtyLarge" : "yyBig.bmp",
+      "specialtySmall" : "yySmall",
+      "specialtyLarge" : "yyBig",
       "large" : "HPL136Wi",
       "small" : "HPS136Wi"
     },
@@ -56,10 +56,15 @@
       }
     ],
 	
-	"specialty" : [
-			{
-				"bonuses" : [ { "subtype" : "spell.chainLightning", "type" : "SPECIAL_SPELL_LEV", "val" : 7 } ]
+	"specialty" : {
+		"bonuses" : {
+			"chainLightning" : {
+				"subtype" : "spell.chainLightning",
+				"type" : "SPECIAL_SPELL_LEV",
+				"updater" : "TIMES_HERO_LEVEL",
+				"val" : 3
 			}
-		]
+		}
 	}
+  }
 }

@@ -2,10 +2,21 @@
 	"name" : "Campaign Heroes",
 	"description" : "All 20 campaign heroes are now available in random maps",
 	"author" : "avatar",
-	"version" : "1.11",
+	"version" : "1.13",
 	"contact" : "",
 	"modType" : "Heroes",
-
+	"changelog" :
+    {
+        "1.13"   : [ "Update to vcmi-1.2" ],
+        "1.12"   : [ "New hero specialty format" ],
+		"1.11"   : [ "Small fixes" ],
+		"1.1"   : [ "Added NCP heroes" ],
+		"1.0"   : [ "Initial release" ]
+    },
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},
 	"heroes" :
 	[
 		"config/campaignHeroes.json",
@@ -16,6 +27,7 @@
 		"config/youngGem.json",
 		"config/youngSandro.json",
 		"config/youngYog.json",
-		"config/youngAlkin.json",		
+		"config/youngAlkin.json",
+		"config/youngCatherine.json"		
 	]	
 }
