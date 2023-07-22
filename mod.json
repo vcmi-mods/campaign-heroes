@@ -17,6 +17,13 @@
 	{
 		"min" : "1.2.0"
 	},
+	"german" : {
+		"name" : "Kampagnen-Helden",
+		"description" : "Alle 20 Kampagnenhelden sind jetzt auf zufälligen Karten verfügbar",
+		"translations" : [
+			"translation/campaign-heroes/german.json"
+		]
+	},
 	"heroes" :
 	[
 		"config/campaignHeroes.json",
