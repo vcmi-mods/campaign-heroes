@@ -2,11 +2,12 @@
 	"name" : "Campaign Heroes",
 	"description" : "All 20 campaign heroes are now available in random maps",
 	"author" : "avatar",
-	"version" : "1.13",
+	"version" : "1.14",
 	"contact" : "",
 	"modType" : "Heroes",
 	"changelog" :
     {
+        "1.14"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
         "1.13"   : [ "Update to vcmi-1.2" ],
         "1.12"   : [ "New hero specialty format" ],
 		"1.11"   : [ "Small fixes" ],
@@ -22,6 +23,12 @@
 		"description" : "Alle 20 Kampagnenhelden sind jetzt auf zufälligen Karten verfügbar",
 		"translations" : [
 			"translation/campaign-heroes/german.json"
+		]
+	},
+	"chinese" : {
+		"name" : "运动英雄",
+		"translations" : [
+			"translation/campaign-heroes/chinese.json"
 		]
 	},
 	"heroes" :
