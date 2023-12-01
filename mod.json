@@ -27,6 +27,7 @@
 	},
 	"chinese" : {
 		"name" : "运动英雄",
+		"description" : "运动英雄",
 		"translations" : [
 			"translation/campaign-heroes/chinese.json"
 		]
