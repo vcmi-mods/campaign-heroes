@@ -29,7 +29,7 @@
 	},
 	"chinese" : {
 		"name" : "战役英雄",
-		"description" : "战役英雄",
+		"description" : "包含了《英雄无敌III》的所有20个战役英雄，现在都可以在随机地图中使用。",
 		"translations" : [
 			"translation/campaign-heroes/chinese.json"
 		]
