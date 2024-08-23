@@ -34,6 +34,13 @@
 			"translation/campaign-heroes/chinese.json"
 		]
 	},
+	"russian" : {
+		"name" : "Герои кампании",
+		"description" : "Все 20 героев кампании теперь доступны на случайных картах.",
+		"translations" : [
+			"translation/campaign-heroes/russian.json"
+		]
+	},
 	"heroes" :
 	[
 		"config/campaignHeroes.json",
