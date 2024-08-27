@@ -2,13 +2,12 @@
 	"name" : "Campaign Heroes",
 	"description" : "All 20 campaign heroes are now available in random maps",
 	"author" : "avatar",
-	"version" : "1.17",
+	"version" : "1.16",
 	"contact" : "",
 	"modType" : "Heroes",
 	"changelog" :
     {
-		"1.17"   : [ "Russian translation by Anton Sergeew" ],
-		"1.16"   : [ "Updated chinese translation" ],
+        "1.16"   : [ "Updated chinese translation" ],
 		"1.15"   : [ "Updated chinese translation" ],
 		"1.14"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
         "1.13"   : [ "Update to vcmi-1.2" ],
@@ -37,7 +36,7 @@
 	},
 	"russian" : {
 		"name" : "Герои кампании",
-		"description" : "Alle 20 Kampagnenhelden sind jetzt auf zufälligen Karten verfügbar",
+		"description" : "Все 20 героев кампании теперь доступны на случайных картах.",
 		"translations" : [
 			"translation/campaign-heroes/russian.json"
 		]
