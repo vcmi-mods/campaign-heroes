@@ -45,7 +45,7 @@
 	},
 	"czech" : {
 		"name": "Hrdinové kampaně",
-		"description": "Všech 20 hrdinů z kampaně je nyní dostupných v náhodných mapách"
+		"description": "Všech 20 hrdinů z kampaně je nyní dostupných v náhodných mapách",
 		"translations" : [
 			"translation/campaign-heroes/czech.json"
 		]
