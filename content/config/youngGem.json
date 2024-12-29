@@ -11,7 +11,7 @@
       "biography" : "Gem was one of the greatest sorceresses that Enroth had ever seen, serving King Roland Ironfist during the Succession Wars. Shortly after Roland had secured the throne of Enroth, Gem left for Antagarich.",
       "specialty" :
       {
-        "description" : "{Receives a 5% per level bonus to First Aid skill.",
+        "description" : "Receives a 5% per level bonus to First Aid skill.",
         "tooltip" : "Secondary Skill Bonus: First Aid",
         "name" : "First Aid"
       }
