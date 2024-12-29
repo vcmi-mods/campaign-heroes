@@ -2,11 +2,12 @@
 	"name" : "Campaign Heroes",
 	"description" : "All 20 campaign heroes are now available in random maps",
 	"author" : "avatar",
-	"version" : "1.20",
+	"version" : "1.21",
 	"contact" : "",
 	"modType" : "Heroes",
 	"changelog" :
     {
+                "1.21"   : [ "Polish translation by FallainBlack" ],
 		"1.20"   : [ "Updated Czech translation" ],
 		"1.19"   : [ "Rebalanced heroes' starting armies; Gen. Kendal is more faithful to his campaign appearances; updated specialties & descriptions; updated specialty images" ],
 		"1.18"   : [ "Czech translation by George King" ],
@@ -50,6 +51,13 @@
 		"description": "Všech 20 hrdinů z kampaně je nyní dostupných v náhodných mapách",
 		"translations" : [
 			"translation/campaign-heroes/czech.json"
+		]
+	},
+	"polish" : {
+		"name": "Bohaterowie Kampanii",
+		"description": "Wszyscy z 20 bohaterów kampanii są teraz dostępni na mapach losowych ",
+		"translations" : [
+			"translation/campaign-heroes/polish.json"
 		]
 	},
 	"heroes" :
