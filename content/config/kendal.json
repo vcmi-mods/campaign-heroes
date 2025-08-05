@@ -56,17 +56,8 @@
       }
     ],
     
-	"specialty" : {
-		"bonuses" : {
-			"estates" : {
-				"subtype" : "resource.gold",
-				"type" : "GENERATE_RESOURCE",
-				"updater" : "TIMES_HERO_LEVEL",
-				"val" : 5,
-				"valueType" : "PERCENT_TO_TARGET_TYPE",
-				"targetSourceType" : "SECONDARY_SKILL"
-			}
+		"specialty" : {
+			"secondary" : "estates"
 		}
-	}
    }
 }

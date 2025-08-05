@@ -57,17 +57,8 @@
     ],
 	"spellbook" : ["lightningBolt"],
     
-	"specialty" : {
-			"bonuses" : {
-				"firstAid" : {
-					"subtype" : "core:spell.firstAid",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "SPECIFIC_SPELL_POWER",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+		"specialty" : {
+			"secondary" : "firstAid"
 		}
 	}
 }
