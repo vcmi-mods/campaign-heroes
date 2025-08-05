@@ -1,64 +1,60 @@
 {
-  "ordwald" :
-  {
-    "class" : "warlock",
-    "female" : false,
-    "special" : false,
+	"ordwald" : {
+		"class" : "warlock",
+		"female" : false,
+		"special" : false,
 
-    "texts" :
-    {
-      "name" : "Ordwald",
-      "biography" : "Ordwald was the most powerful Lord in Nighon. He was an old but powerful warlock, receiving his lands from his much greater father. He rejected the warriors art's and turned to magic. Most likely that would mean that his father was a powerful Dungeon Overlord of Nighon. He sought to obtain the Vial of Dragon Blood, and was the greatest enemy and challenger of Mutare.",
-      "specialty" :
-      {
-        "description" : "Casts Slayer with increased effect.",
-        "tooltip" : "Spell Bonus: Slayer",
-        "name" : "Slayer"
-      }
-    },
+		"texts" : {
+			"name" : "Ordwald",
+			"biography" : "Ordwald was the most powerful Lord in Nighon. He was an old but powerful warlock, receiving his lands from his much greater father. He rejected the warriors art's and turned to magic. Most likely that would mean that his father was a powerful Dungeon Overlord of Nighon. He sought to obtain the Vial of Dragon Blood, and was the greatest enemy and challenger of Mutare.",
+			"specialty" : {
+				"description" : "Casts Slayer with increased effect.",
+				"tooltip" : "Spell Bonus: Slayer",
+				"name" : "Slayer"
+			}
+		},
 
-    "images" :
-    {
-      "specialtySmall" : "orSmall",
-      "specialtyLarge" : "orBig",
-      "large" : "HPL132Wl",
-      "small" : "HPS132Wl"
-    },
+		"images" : {
+			"specialtySmall" : "orSmall",
+			"specialtyLarge" : "orBig",
+			"large" : "HPL132Wl",
+			"small" : "HPS132Wl"
+		},
 
-    "army" :
-    [
-      {
-        "creature" : "troglodyte",
-        "max" : 20,
-        "min" : 20
-      },
-      {
-        "creature" : "harpy",
-        "max" : 5,
-        "min" : 5
-      },
-      {
-        "creature" : "harpy",
-        "max" : 5,
-        "min" : 5
-      }
-    ],
-	
-	"spellbook" : ["slayer"],
+		"army" : [
+			{
+				"creature" : "troglodyte",
+				"max" : 20,
+				"min" : 20
+			},
+			{
+				"creature" : "harpy",
+				"max" : 5,
+				"min" : 5
+			},
+			{
+				"creature" : "harpy",
+				"max" : 5,
+				"min" : 5
+			}
+		],
 
-    "skills" :
-    [
-      {
-        "level" : "basic",
-        "skill" : "wisdom"
-      },
-	  {
-        "level" : "basic",
-        "skill" : "scholar"
-      }
-    ],
-    
-    "specialty" : {
+		"spellbook" : [
+			"slayer"
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scholar"
+			}
+		],
+
+		"specialty" : {
 			"bonuses" : {
 				"slayer" : {
 					"addInfo" : 1,

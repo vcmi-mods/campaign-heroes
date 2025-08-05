@@ -1,63 +1,57 @@
 {
-  "youngChristian" :
-  {
-    "class" : "knight",
-    "female" : false,
-    "special" : false,
+	"youngChristian" : {
+		"class" : "knight",
+		"female" : false,
+		"special" : false,
 
-    "texts" :
-    {
-      "name" : "Christian",
-      "biography" : "Christian was always more of a frontiersman than a Knight, having set foot in nearly every part of Enroth before finally settling into military service in Erathia. Though a wanderer and a bit of dreamer, his battefield tactics are feared throughout the world.",
-      "specialty" :
-      {
-        "description" : "Increases the Attack and Defense skills of any Ballista by 5% for every 5 levels (rounded up).",
-        "tooltip" : "Creature Bonus: Ballista",
-        "name" : "Ballista"
-      }
-    },
+		"texts" : {
+			"name" : "Christian",
+			"biography" : "Christian was always more of a frontiersman than a Knight, having set foot in nearly every part of Enroth before finally settling into military service in Erathia. Though a wanderer and a bit of dreamer, his battefield tactics are feared throughout the world.",
+			"specialty" : {
+				"description" : "Increases the Attack and Defense skills of any Ballista by 5% for every 5 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Ballista",
+				"name" : "Ballista"
+			}
+		},
 
-    "images" :
-    {
-      "specialtySmall" : "ycSmall",
-      "specialtyLarge" : "ycBig",
-      "large" : "HPL002Sh",
-      "small" : "HPS002Sh"
-    },
+		"images" : {
+			"specialtySmall" : "ycSmall",
+			"specialtyLarge" : "ycBig",
+			"large" : "HPL002Sh",
+			"small" : "HPS002Sh"
+		},
 
-    "army" :
-    [
-      {
-        "creature" : "ballista",
-        "max" : 1,
-        "min" : 1
-      },
-      {
-        "creature" : "pikeman",
-        "max" : 20,
-        "min" : 10
-      },
-      {
-        "creature" : "griffin",
-        "max" : 3,
-        "min" : 2
-      }
-    ],
-	
-    "skills" :
-    [
-      {
-        "level" : "basic",
-        "skill" : "leadership"
-      },
-	  {
-        "level" : "basic",
-        "skill" : "artillery"
-      }
-    ],
-    
-	"specialty" : {
+		"army" : [
+			{
+				"creature" : "ballista",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "pikeman",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "griffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "artillery"
+			}
+		],
+
+		"specialty" : {
 			"creature" : "ballista"
-		} 
+		}
 	}
 }

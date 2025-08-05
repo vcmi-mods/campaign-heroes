@@ -1,70 +1,64 @@
 {
-  "youngYog" :
-  {
-    "class" : "wizard",
-    "female" : false,
-    "special" : false,
+	"youngYog" : {
+		"class" : "wizard",
+		"female" : false,
+		"special" : false,
 
-    "texts" :
-    {
-      "name" : "Yog",
-      "biography" : "Yog studied many years with the Wizards of Bracada, but he would rather spend his time engaging in swordplay rather than studying magic.",
-      "specialty" :
-      {
-        "description" : "Casts Chain Lightning with damage increased by 3% for every n hero levels, where n is the level of the targeted creature.",
-        "tooltip" : "Spell Bonus: Chain Lightning",
-        "name" : "Chain Lightning"
-      }
-    },
+		"texts" : {
+			"name" : "Yog",
+			"biography" : "Yog studied many years with the Wizards of Bracada, but he would rather spend his time engaging in swordplay rather than studying magic.",
+			"specialty" : {
+				"description" : "Casts Chain Lightning with damage increased by 3% for every n hero levels, where n is the level of the targeted creature.",
+				"tooltip" : "Spell Bonus: Chain Lightning",
+				"name" : "Chain Lightning"
+			}
+		},
 
-    "images" :
-    {
-      "specialtySmall" : "yySmall",
-      "specialtyLarge" : "yyBig",
-      "large" : "HPL136Wi",
-      "small" : "HPS136Wi"
-    },
+		"images" : {
+			"specialtySmall" : "yySmall",
+			"specialtyLarge" : "yyBig",
+			"large" : "HPL136Wi",
+			"small" : "HPS136Wi"
+		},
 
-    "army" :
-    [
-	  {
-        "creature" : "gremlin",
-        "max" : 40,
-        "min" : 30
-      },
-      {
-        "creature" : "stoneGargoyle",
-        "max" : 7,
-        "min" : 5
-      },
-      {
-        "creature" : "ironGolem",
-        "max" : 5,
-        "min" : 4
-      }
-    ],
-	
-    "skills" :
-    [
-      {
-        "level" : "basic",
-        "skill" : "tactics"
-      },
-	  {
-        "level" : "basic",
-        "skill" : "offence"
-      }
-    ],
-	
-	"specialty" : {
-		"bonuses" : {
-			"chainLightning" : {
-				"subtype" : "chainLightning",
-				"type" : "SPECIAL_SPELL_LEV",
-				"updater" : "TIMES_HERO_LEVEL",
-				"val" : 3
+		"army" : [
+			{
+				"creature" : "gremlin",
+				"max" : 40,
+				"min" : 30
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "ironGolem",
+				"max" : 5,
+				"min" : 4
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"chainLightning" : {
+					"subtype" : "chainLightning",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
 			}
 		}
 	}
-  }
 }

@@ -1,62 +1,58 @@
 {
-  "youngGem" :
-  {
-    "class" : "druid",
-    "female" : true,
-    "special" : false,
+	"youngGem" : {
+		"class" : "druid",
+		"female" : true,
+		"special" : false,
 
-    "texts" :
-    {
-      "name" : "Gem",
-      "biography" : "Gem was one of the greatest sorceresses that Enroth had ever seen, serving King Roland Ironfist during the Succession Wars. Shortly after Roland had secured the throne of Enroth, Gem left for Antagarich.",
-      "specialty" :
-      {
-        "description" : "Receives a 5% per level bonus to First Aid skill.",
-        "tooltip" : "Secondary Skill Bonus: First Aid",
-        "name" : "First Aid"
-      }
-    },
+		"texts" : {
+			"name" : "Gem",
+			"biography" : "Gem was one of the greatest sorceresses that Enroth had ever seen, serving King Roland Ironfist during the Succession Wars. Shortly after Roland had secured the throne of Enroth, Gem left for Antagarich.",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to First Aid skill.",
+				"tooltip" : "Secondary Skill Bonus: First Aid",
+				"name" : "First Aid"
+			}
+		},
 
-    "images" :
-    {
-      "specialtySmall" : "ygSmall",
-      "specialtyLarge" : "ygBig",
-      "large" : "HPL134Nc",
-      "small" : "HPS134Nc"
-    },
+		"images" : {
+			"specialtySmall" : "ygSmall",
+			"specialtyLarge" : "ygBig",
+			"large" : "HPL134Nc",
+			"small" : "HPS134Nc"
+		},
 
-    "army" :
-    [
-	  {
-        "creature" : "firstAidTent",
-        "max" : 1,
-        "min" : 1
-      },
-      {
-        "creature" : "centaur",
-        "max" : 24,
-        "min" : 12
-      },
-      {
-        "creature" : "woodElf",
-        "max" : 4,
-        "min" : 2
-      }
-    ],
-	
-    "skills" :
-    [
-      {
-        "level" : "basic",
-        "skill" : "wisdom"
-      },
-	  {
-        "level" : "basic",
-        "skill" : "firstAid"
-      }
-    ],
-	"spellbook" : ["lightningBolt"],
-    
+		"army" : [
+			{
+				"creature" : "firstAidTent",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "centaur",
+				"max" : 24,
+				"min" : 12
+			},
+			{
+				"creature" : "woodElf",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			}
+		],
+		"spellbook" : [
+			"lightningBolt"
+		],
+
 		"specialty" : {
 			"secondary" : "firstAid"
 		}
