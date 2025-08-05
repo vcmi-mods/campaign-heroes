@@ -5,25 +5,51 @@
 	"version" : "1.22",
 	"contact" : "",
 	"modType" : "Heroes",
-	"changelog" :
-    {
-	        "1.22"   : [ "Ukrainian translation by MyroSlave" ],
-                "1.21"   : [ "Polish translation by FallainBlack" ],
-		"1.20"   : [ "Updated Czech translation" ],
-		"1.19"   : [ "Rebalanced heroes' starting armies; Gen. Kendal is more faithful to his campaign appearances; updated specialties & descriptions; updated specialty images" ],
-		"1.18"   : [ "Czech translation by George King" ],
-		"1.17"   : [ "Russian translation by Anton Sergeew" ],
-		"1.16"   : [ "Updated chinese translation" ],
-		"1.15"   : [ "Updated chinese translation" ],
-		"1.14"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
-		"1.13"   : [ "Update to vcmi-1.2" ],
-		"1.12"   : [ "New hero specialty format" ],
-		"1.11"   : [ "Small fixes" ],
-		"1.1"   : [ "Added NCP heroes" ],
-		"1.0"   : [ "Initial release" ]
-    },
-	"compatibility" :
-	{
+	"changelog" : {
+		"1.22" : [
+			"Ukrainian translation by MyroSlave"
+		],
+		"1.21" : [
+			"Polish translation by FallainBlack"
+		],
+		"1.20" : [
+			"Updated Czech translation"
+		],
+		"1.19" : [
+			"Rebalanced heroes' starting armies; Gen. Kendal is more faithful to his campaign appearances; updated specialties & descriptions; updated specialty images"
+		],
+		"1.18" : [
+			"Czech translation by George King"
+		],
+		"1.17" : [
+			"Russian translation by Anton Sergeew"
+		],
+		"1.16" : [
+			"Updated chinese translation"
+		],
+		"1.15" : [
+			"Updated chinese translation"
+		],
+		"1.14" : [
+			"Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"
+		],
+		"1.13" : [
+			"Update to vcmi-1.2"
+		],
+		"1.12" : [
+			"New hero specialty format"
+		],
+		"1.11" : [
+			"Small fixes"
+		],
+		"1.1" : [
+			"Added NCP heroes"
+		],
+		"1.0" : [
+			"Initial release"
+		]
+	},
+	"compatibility" : {
 		"min" : "1.2.0"
 	},
 	"german" : {
@@ -48,28 +74,27 @@
 		]
 	},
 	"czech" : {
-		"name": "Hrdinové kampaně",
-		"description": "Všech 20 hrdinů z kampaně je nyní dostupných v náhodných mapách",
+		"name" : "Hrdinové kampaně",
+		"description" : "Všech 20 hrdinů z kampaně je nyní dostupných v náhodných mapách",
 		"translations" : [
 			"translation/campaign-heroes/czech.json"
-   ]
-  },
-  "ukrainian" : {
-		"name": "Герої з кампаній",
-		"description": "Всі 20 героїв з кампаній тепер доступні у випадкових мапах",
+		]
+	},
+	"ukrainian" : {
+		"name" : "Герої з кампаній",
+		"description" : "Всі 20 героїв з кампаній тепер доступні у випадкових мапах",
 		"translations" : [
 			"translation/campaign-heroes/ukrainian.json"
 		]
 	},
 	"polish" : {
-		"name": "Bohaterowie Kampanii",
-		"description": "Wszyscy z 20 bohaterów kampanii są teraz dostępni na mapach losowych ",
+		"name" : "Bohaterowie Kampanii",
+		"description" : "Wszyscy z 20 bohaterów kampanii są teraz dostępni na mapach losowych ",
 		"translations" : [
 			"translation/campaign-heroes/polish.json"
 		]
 	},
-	"heroes" :
-	[
+	"heroes" : [
 		"config/campaignHeroes.json",
 		"config/finneasVilmar.json",
 		"config/kendal.json",
@@ -79,6 +104,6 @@
 		"config/youngSandro.json",
 		"config/youngYog.json",
 		"config/youngAlkin.json",
-		"config/youngCatherine.json"		
-	]	
+		"config/youngCatherine.json"
+	]
 }
