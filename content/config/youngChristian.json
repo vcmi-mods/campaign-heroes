@@ -8,7 +8,7 @@
 			"name" : "Christian",
 			"biography" : "Christian was always more of a frontiersman than a Knight, having set foot in nearly every part of Enroth before finally settling into military service in Erathia. Though a wanderer and a bit of dreamer, his battefield tactics are feared throughout the world.",
 			"specialty" : {
-				"description" : "Increases the Attack and Defense skills of any Ballista by 5% for every 5 levels (rounded up).",
+				"description" : "Increases the Ballista's Attack and Defense skills by 5% for every 5 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Ballista",
 				"name" : "Ballista"
 			}
