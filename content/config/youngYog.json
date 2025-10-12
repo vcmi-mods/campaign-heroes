@@ -8,7 +8,7 @@
 			"name" : "Yog",
 			"biography" : "Yog studied many years with the Wizards of Bracada, but he would rather spend his time engaging in swordplay rather than studying magic.",
 			"specialty" : {
-				"description" : "Casts Chain Lightning with damage increased by 3% for every n hero levels, where n is the level of the targeted creature.",
+				"description" : "Casts Chain Lightning with damage increased by 3% for every N hero levels, where N is the level of the target creature.",
 				"tooltip" : "Spell Bonus: Chain Lightning",
 				"name" : "Chain Lightning"
 			}

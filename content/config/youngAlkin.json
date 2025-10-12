@@ -8,7 +8,7 @@
 			"name" : "Alkin",
 			"biography" : "King Tralossk never really liked Alkin, but gave him his own command in the hopes that he would one day get himself killed. That never happened, and Alkin has led a long and glorious career, much to the displeasure of the King.",
 			"specialty" : {
-				"description" : "Increases the attack and defense skills of any Gorgons or Mighty Gorgons for each level attained after 5th level.",
+				"description" : "Increases the Speed of allied Gorgons and Mighty Gorgons by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Gorgons",
 				"name" : "Gorgons"
 			}

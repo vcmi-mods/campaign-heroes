@@ -8,7 +8,7 @@
 			"name" : "Ordwald",
 			"biography" : "Ordwald was the most powerful Lord in Nighon. He was an old but powerful warlock, receiving his lands from his much greater father. He rejected the warriors art's and turned to magic. Most likely that would mean that his father was a powerful Dungeon Overlord of Nighon. He sought to obtain the Vial of Dragon Blood, and was the greatest enemy and challenger of Mutare.",
 			"specialty" : {
-				"description" : "Casts Slayer with increased effect.",
+				"description" : "Casts Slayer with effect increased by 4 for level 1 creatures, by 3 for level 2 creatures, by 2 for level 3 creatures, and by 1 for level 4 creatures.",
 				"tooltip" : "Spell Bonus: Slayer",
 				"name" : "Slayer"
 			}
