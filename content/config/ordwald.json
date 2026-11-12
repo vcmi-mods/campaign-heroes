@@ -56,7 +56,15 @@
 
 		"specialty" : {
 			"spellFixedAdditive" : "slayer",
-			"spellFixedValues" : [ 4, 3, 2, 1, 0, 0, 0 ]
+			"spellFixedValues" : [
+				4,
+				3,
+				2,
+				1,
+				0,
+				0,
+				0
+			]
 		}
 	}
 }
